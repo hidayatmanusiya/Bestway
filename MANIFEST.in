@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bestway *.css
+recursive-include bestway *.csv
+recursive-include bestway *.html
+recursive-include bestway *.ico
+recursive-include bestway *.js
+recursive-include bestway *.json
+recursive-include bestway *.md
+recursive-include bestway *.png
+recursive-include bestway *.py
+recursive-include bestway *.svg
+recursive-include bestway *.txt
+recursive-exclude bestway *.pyc
